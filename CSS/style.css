@@ -1,0 +1,142 @@
+body { text-align: center; }
+
+#mainContainer{
+    width:100%;
+    min-height: 100vh;
+    background-image: url('../IMG/ball.jpg');
+    padding: 30px;
+    display: block;
+    border-radius: 100px;
+    margin: 10px;
+}
+
+
+#jersey-25-charted-regular {
+    font-family: "Jersey 25 Charted", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#name {
+    font-size: 80px;
+    color: rgb(102, 230, 63);
+    text-align: center;
+
+    margin-top: 20px;
+    text-shadow: 2px 2px 2px rgb(71, 10, 20);
+}
+
+
+
+#score {
+    font-size: 30px;
+    color: hsl(202, 100%, 22%);
+    text-align: left;
+    display: inline-flex;
+    border-radius: 10px;
+    background-color: hwb(202 75% 1%);
+    padding: 10px;
+}
+
+#scoreValue{
+    position: relative;
+    font-size: 50px;
+    color: rgb(8, 129, 199);
+    border-radius: 10px;
+    background-color: hwb(202 75% 1%);
+    margin-left: 20px;
+    text-align: left;
+    display: inline-flex;
+    text-shadow: 1px 1px 1px rgb(71, 10, 20);
+    padding: 10px;
+}
+
+#lives {
+    font-size: 30px;
+    color: hsl(118, 100%, 22%);
+    border-radius: 10px;
+    background-color: rgb(176, 235, 176);
+    margin-left: 100px;
+    text-align: left;
+    display: inline-flex;
+    padding: 10px;
+}
+
+#livesCount {
+    position: relative;
+    font-size: 50px;
+    color: rgb(24, 170, 24);
+    border-radius: 10px;
+    background-color: rgb(176, 235, 176);
+    margin-left: 20px;
+    text-align: left;
+    display: inline-flex;
+    text-shadow: 1px 1px 1px #3b3b06;
+    padding: 10px;
+}
+
+#startGameButton{
+    background-color: #04AA6D; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    margin-top: 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+    transition:cubic-bezier();
+    transition-duration: 200ms;
+    border-radius: 30px;
+    position: relative;
+}
+
+#startGameButton:hover{
+    background-color: #09db68; /* Green */
+    scale: 140%;
+}
+
+#gameCanvas {
+    position: relative;
+    top: 50%;
+    width: 90%;
+    padding: 0;
+    border: 0cm;
+    margin: 0 auto;
+    background: linear-gradient(180deg,#9fe9ff,#dbffa0);
+    display: inline-block;
+}
+
+#description {
+    width: a;
+    font-size: 40px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 80px;
+    text-shadow: 1px 1px 1px hwb(350 10% 55%);
+    background: linear-gradient(30deg,#8b4b20,#2d74a3);
+    padding: 30px;
+    border-radius: 100px;
+    display: inline-flex;
+    
+}
+
+#restartGameButton{
+    background-color: rgb(29, 205, 38);
+    font-size: 40px;
+    color:white;
+    transition:cubic-bezier();
+    transition-duration: 200ms;
+    border-radius: 30px;
+    margin-top: 100px;
+    position: relative;
+}
+
+#gameOverText {
+    font-size: 60px;
+    color: rgb(245, 70, 39);
+    text-align: center;
+    margin-top: 20px;
+    text-shadow: 1px 1px 1px rgb(71, 10, 20);
+    display: block;
+}

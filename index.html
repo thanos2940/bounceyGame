@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bouncy Ball</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <script src="p5.min.js"></script>
+    <style>
+        
+      </style>
+</head>
+<body>
+
+<div id="mainContainer">
+  <h1 id="name" class="jersey-25-charted-regular">BOUNCY BOUNCY</h1>
+  
+  <!-- STARTING SCREEN -->
+  <div id="startScreenDiv">
+    <div id="descContainer">
+      <p id="description">Bouncy Bouncy a magestic and challenging game!
+        <br> Challenge yourself to see how long you can survive and achieve highscores.<br>
+        <br>You got 3 lives to prove yourself worthy to the ball, the more it bounces, the faster it goes!<br>
+        For every 1000 points that you score, you continue to the next level.
+        <br> At level 3 and up the game becomes more and more challenging!<br><br>
+        Enjoy the adrenaline ride and conquer the levels!<br><br>
+        Use a, d , or the arrow keys to move the platform around.
+      </p>
+    </div>
+    <button id="startGameButton">Start Game</button>
+    
+  </div>
+  <!-- *************** -->
+
+
+
+  <!-- GAME SCREEN -->
+  <div id="score" class="scoreTexts">Score:
+    <div id="scoreValue" class="scoreTexts"></div>
+  </div>
+  <div id="lives" class="livesTexts">Lives:
+    <div id="livesCount" class="livesTexts"></div>
+  </div>
+  <div id="gameCanvas"></div>
+  <!-- *************** -->
+
+
+
+
+
+  <!-- END SCREEN -->
+  <div id="endScreenDiv" class="endScreen">
+    <p id="gameOverText">Game Over!</p>
+    <button id="restartGameButton" class="endScreen">Restart</button>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
